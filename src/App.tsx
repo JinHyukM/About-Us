@@ -1,9 +1,10 @@
 import React from 'react';
+import ExampleComponent from './components/homepage/ExampleComponent.tsx';
 
 function App() {
   return (
     <div className="App">
-      <p>Entry Point</p>
+      <ExampleComponent />
     </div>
   );
 }
