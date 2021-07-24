@@ -1,11 +1,13 @@
-import React from 'react';
-import ExampleComponent from './components/homepage/ExampleComponent';
+import React from "react";
+import Header from "./Header";
+import Mission from "./Mission";
+import ExampleComponent from "./components/homepage/ExampleComponent";
 
 function App() {
   return (
     <div className="App">
-      <ExampleComponent />
-      
+      <Header />
+      <Mission />
     </div>
   );
 }
